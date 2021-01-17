@@ -1,0 +1,8 @@
+/build/
+/dataset/
+/dist/
+/__pycache__/
+/output
+/wUUNet_fireSegm.egg-info/
+/.ipynb_checkpoints/
+/.idea/
