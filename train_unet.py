@@ -20,7 +20,7 @@ MAIN_METRIC = 'jaccard'     # 'dice'
 FULL_SIZE = False           # True
 AUGMENTATION_ENABLED = True
 INPUT_SIZE = (448, 448)     # (224, 224)
-BS_TRAIN = 24
+BS_TRAIN = 4
 BS_VAL = BS_TRAIN * 2 - 4
 LEARN_RATES = {
     0:  1e-3,

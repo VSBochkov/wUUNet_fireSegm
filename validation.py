@@ -48,7 +48,7 @@ class Validation(object):
     @staticmethod
     def get_thresholds_array():
         begin, end, step = 0., 4., 1e-2
-        nodes = (end - begin) / step + 1
+        nodes = int((end - begin) / step + 1)
         return np.linspace(begin, end, nodes)
 
     def get_model(self, model_name, snapshot_variant):

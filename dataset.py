@@ -214,11 +214,11 @@ class MulticlassFiresegmDataset(Pytorch_Dataset):
             label = get_multiclass_label_map(label, N_CLASS)
         else:
             label = get_binary_label_map(label)
-        image = np.asarray(image, np.float32)
+        image = np.asarray(image, np.float32) / 255.0
         if self.transforms is not None:
             image = self.transforms(image=image)['image']
         return {
-            'img': np.transpose(image.copy(), (2, 0, 1)) / 255.0,
+            'img': np.transpose(image.copy(), (2, 0, 1)),
             'lbl': label,
             'sample_num_path': (video_num, sample_num),
             'bbox': bbox,
