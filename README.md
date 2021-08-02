@@ -1,6 +1,6 @@
 # wUUNet_fireSegm
 
-The PyTorch implementation of wUUNet model designed for multiclass fire segmentation
+The PyTorch and Keras implementations of wUUNet model designed for multiclass fire segmentation
 For more information read the [paper]()
 
 # Installation
