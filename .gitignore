@@ -6,3 +6,6 @@
 /wUUNet_fireSegm.egg-info/
 /.ipynb_checkpoints/
 /.idea/
+/keras_workspace/.ipynb_checkpoints/
+/keras_workspace/output/
+/keras_workspace/__pycache__/
